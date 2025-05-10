@@ -60,9 +60,9 @@ body {
 }
 
 #chat-form button {
-    background-color: #6c63ff;
-    color: white;
-    border: none;
-    padding: 0 15px;
-    cursor: pointer;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  padding: 0 15px;
+  cursor: pointer;
 }
