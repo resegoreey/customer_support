@@ -18,8 +18,8 @@ function sendMessage(event) {
 
       // Append both messages to chat box
       document.getElementById("chat-box").innerHTML += `
-            <div class="user"><strong>You:</strong> ${userInput}</div>
-            <div class="bot"><strong>Bot:</strong> <p>${botResponse}</p></div>
+            <div class="user"><strong>You:</strong> <p>${userInput}</p></div>
+            <div class="bot"><strong>Ree:</strong> <p>${botResponse}</p></div>
         `;
 
       // Clear the input box

@@ -14,7 +14,7 @@ def ask():
     if 'hello' in user_message.lower():
         reply = 'Hi there! How can I assist you today?'
     elif 'bye' in user_message.lower():
-        reply = 'Goodbye! Have a greate day!'
+        reply = 'Goodbye! Have a great day!'
 
     else:
         reply = f'You said: {user_message}'
