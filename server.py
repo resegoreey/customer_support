@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 CORS(app)
 
-@app.route('/ask', methods=['POST'])
-def ask():
+@app.route('/chat', methods=['POST'])
+def chat():
     data = request.get_json()
 
     user_message = data.get('message', '')
